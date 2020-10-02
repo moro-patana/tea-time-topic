@@ -1,0 +1,70 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin:0;
+    background-color: aliceblue;
+    padding: 1rem;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+.form_input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1rem;
+}
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+label {
+    padding: 1rem;
+}
+input {
+    padding-left: 1rem;
+    width: 250px;
+    height: 38px;
+    border-radius: 10px;
+    border: none;
+    background-color: darkgray;
+}
+.add {
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 3.5rem;
+}
+article {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 15px;
+}
+.archieve,
+.delete {
+    position: absolute;
+    right: 6%;
+}
+.button {
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+.topic {
+    padding-top: 2rem;
+}
+.vote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+}
+.upvoted {
+    margin-right: 1rem;
+}
