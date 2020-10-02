@@ -7,7 +7,6 @@ body {
     padding: 1rem;
 }
 .container {
-    max-width: 800px;
     margin: auto;
 }
 .form_input {
@@ -44,6 +43,7 @@ article {
     padding: 1rem;
     background-color: white;
     border-radius: 15px;
+    margin-top: 1rem;
 }
 .archieve,
 .delete {
