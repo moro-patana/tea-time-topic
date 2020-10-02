@@ -78,14 +78,9 @@ const addTopic = `
 nextTopicHeading.insertAdjacentHTML('afterend', addTopic);
 formInput.reset();
 
-        // destroyPopup(newPopupList);
-        // tbody.dispatchEvent(new CustomEvent('listUpdated'));
     })
     
 }
 addBtn.addEventListener('click', addNewList);
 fetchTopic();
-// undiscussedTopic();
-// discussedTopic();
-// addNewList();
 showList();
