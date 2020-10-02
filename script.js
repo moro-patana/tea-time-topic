@@ -65,16 +65,16 @@ async function discussedTopic() {
 const addNewList = e => {
     formInput.addEventListener('submit', e => {
         e.preventDefault();
-const addTopic = `
-            <article class="add_topic">
-                <button class="button archieve"><img src="" alt="" class="icon">Archieve</button>
-                <p class="topic">${input.value}</p>
-                <div class="vote">
-                    <button class="button upvotes"><img src="" alt="" class="icon"></button>
-                    <button class="button downvotes"><img src="" alt="" class="icon"></button>
-                </div>
-            </article>
-`;
+        const addTopic = `
+                    <article class="add_topic">
+                        <button class="button archieve"><img src="" alt="" class="icon">Archieve</button>
+                        <p class="topic">${input.value}</p>
+                        <div class="vote">
+                            <button class="button upvotes"><img src="" alt="" class="icon"></button>
+                            <button class="button downvotes"><img src="" alt="" class="icon"></button>
+                        </div>
+                    </article>
+        `;
 nextTopicHeading.insertAdjacentHTML('afterend', addTopic);
 formInput.reset();
 
